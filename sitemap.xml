@@ -1,81 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/01-introduction.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/404.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/10-introducing-the-shell.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/CODE_OF_CONDUCT.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/11-files-and-directories.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/LICENSE.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/12-creating-things.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/aio.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/13-wildcards-pipes-and-filters.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/citation.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/14-finding-things.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/images.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/15-shell-scripts.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/index.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/16-loops.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/01-introduction.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/404.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/LICENSE.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/aio.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/citation.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/citation.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/images.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/index.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/instructor-notes.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/10-introducing-the-shell.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/introduction.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/11-files-and-directories.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/key-points.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/12-creating-things.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/13-wildcards-pipes-and-filters.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/reference.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/14-finding-things.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor-notes.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/15-shell-scripts.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/introduction.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/16-loops.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/key-points.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/reference.html</loc>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/citation.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/images.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/reference.html</loc>
   </url>
 </urlset>
