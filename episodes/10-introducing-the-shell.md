@@ -6,109 +6,145 @@ exercises: 5 # exercise time in minutes
 
 :::::::::::::::::::::::::::::::::::::: questions
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- What is a command shell and why would I use one?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Explain what the shell is and how it relates to graphical interfaces.
+- Explain when and why command-line interfaces should be used instead of graphical interfaces.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+The Bash shell a text-based program that interactively allows you to run other programs.
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.html) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output.
-Please refer to the [Introduction to The Carpentries
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
-
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
-
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: challenge
-
-## Challenge 1: Can you do it?
-
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
-
-:::::::::::::::::::::::: solution
-
-## Output
-
-```output
-[1] "This new lesson looks good"
-```
-
-:::::::::::::::::::::::::::::::::
-
-
-## Challenge 2: how do you nest solutions within challenge blocks?
-
-:::::::::::::::::::::::: solution
-
-You can add a line with at least three colons and a `solution` tag.
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Figures
-
-You can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
+You'll be familiar with the graphical way of dealing with computers, like the interfaces that Windows and Macs give you - sometimes called GUIs (graphical user interfaces).
+You run an application, it gives you windows and buttons and menus to interact with to access its functions and achieve a result.
+The Bash shell also gives you a means to access the functionality provided by your computer and other programs, but it does so in a different way.
+It allows you to type commands into your computer to get results instead, and when the command has finished running, it prints out the results.
+And then the shell allows you to type in another command…
+And so on.
 
 ::::::::::::::::::::::::::::::::::::: callout
 
-Callout sections can highlight information.
+## Analogies
 
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides":
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
+Imagine the shell a little like working with a voice assistant like Siri or Alexa.
+You ask your computer questions, and your computer responds with an answer.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+The shell is called *the shell* because it encloses the machine's **operating system** - which could be Windows, Mac OS X, or Linux - giving you a wrapper-like interface to interact with it. Another, more general way, of referring to the shell is the **command line**, since it provides an interface into which you type commands line-by-line.
 
-## Math
+## Why use it?
 
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
+So why use the Bash shell?
 
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
+- **Capturing a process:** Being able to capture how programs are run and in what order in a Bash script - and essentially automating how we run that process - is invaluable.
+It's really helpful with making your pipelines reproducible: once you've defined this process in a script, you can re-run it whenever you want.
+This is both helpful for others to achieve the same results, but also for yourself
+perhaps six months from now, when it would be otherwise difficult to remember exactly what you did.
+What you are effectively doing is building a narrative - telling a story in recorded, programmatic form - of how you generated your research results.
 
-Cool, right?
+- **Repetition:** Bash is great at repeating the same commands many times.
+This could be renaming a hundred files in a certain way, or something more complex, such as running a data analysis program over many input data files,
+or running a program to generate a chart for every one of those output data files produced by that program.
+
+- **Availability:** Bash is available on different types of machines.
+You can already use the Bash shell on computers like Macs and those that run Linux, where it's already installed, but you can also install and use it on Windows.
+
+- **Using other computational resources:** if you need to use another computational resource, such as a supercomputer to run your programs even faster, they almost exclusively use the shell.
+
+Now on the flip side, it does have a steeper learning curve generally than using graphical programs. Applications and programs also need to work on the command line to be able to take advantage of it. But knowing just a little can be very useful, and in your careers you will very likely come across quite a few programs that have command line interfaces so it's helpful to have some experience with it.
+
+## GUI vs The Shell
+
+You have been given a set of CO~2~ emissions data for the UK to analyse, located in the `shell-novice/shell/test_directory/co2_data` folder within the `shell-novice` lesson repository. If the notation `shell-novice/shell/test_directory/co2_data` seems unfamiliar to you, don't worry, we will explain it in the next lesson.
+
+When you navigate to the `shell-novice/shell/test_directory/co2_data` folder, you'll see that it contains various subfolders with the `YYYYMM` date format, as shown in the image below:
+
+![Test Directory structure](fig/co2_data_structure.png){alt='Test Directory structure' height='400'}
+
+Upon inspecting these subfolders, you'll notice an issue with the data labeling. The files have been incorrectly labeled as dicarbon monoxide, while they actually contain carbon dioxide emissions data for analysis.
+
+::::::::::::::::::::::::::::::::::::: challenge
+
+## Renaming multiple files:
+
+Your task is to resolve this issue by renaming **all these files** within the subfolders using your file explorer. For
+example, you need to change `c2o_202301_Aberdeen.csv` to `co2_202301_Aberdeen.csv`, and continue with this pattern for all
+the files within the subfolders.
+
+:::::::::::::::::::::::: solution
+
+The solution is you probably got very bored very quickly, so feel free to stop doing this by hand. An important point is
+that the pure tedium of doing this sort of task by hand can lead to mistakes being made, for example data cleaning a large
+number of files in the GUI.
+
+:::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+Let's do the same thing, but with the shell. Open your terminal and navigate to the folder with the CO~2~ data in it
+with the following command:
+
+```bash
+$ cd /path/to/shell-novice/shell/test_directory/co2_data/
+```
+
+Don't worry if you don't understand that command - it will be explained in the next episode, but put simply `cd` changes the directory the shell is in and the `/path/to/shell-novice/shell/test_directory/co2_data/` tells it where to move.
+
+Now type in the following command into the terminal and hit `enter`/`return`
+
+```bash
+$ for file in 2023*/*; do new_file="${file/c2o/co2}"; mv "$file" "$new_file"; done
+```
+
+Now in your file explorer have a look and check that the files have been renamed.
+
+There is quite a lot going on in this one line:
+- The `for` loop `for file in 2023*/*` sets up a loop through the files.
+- Within the loop, `new_file=${file/c2o/co2}` command performs a text substitution to get the correct name of the file and
+stores it in a variable called `new_file`.
+- Finally, the mv command copies the file to this new file with the updated name.
+With this one line we have done a task which would have taken a considerable amount of time by hand using the GUI (and not to
+mention been extremely boring).
+
+
+## Combining and cleaning files:
+
+We can see that the data we have been given are in [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format. Each
+CSV file contains data for a specific city and is categorized by the corresponding month. These files are structured to start
+with the first line containing column headers, followed by the data. To understand the structure, inspect one of the CSV
+files. An example image illustrating the structure from a file named `co2_202301_Aberdeen.csv` is provided below:
+
+![Example CSV structure](fig/Example_csv_format.png){alt='Example CSV structure' height='600'}
+
+Now, imagine the computer program you were going to use for data analysis requires you to combine the data from all these CSV
+files into a single file, excluding the first line with field descriptions. Using a GUI, you'd need to open each file, cut
+every line except the first one, and paste it into a new file. This task of combining data from multiple files is
+time-consuming and prone to introducing errors.
+
+Let's tackle the same task, but this time using the shell. Return to your terminal (and if necessary, navigate to the folder containing the CO~2~ data with the same command as before):
+
+```bash
+$ cd /path/to/shell-novice/shell/test_directory/co2_data/
+```
+
+Now type in the following command into the terminal and hit `enter`/`return`
+
+```bash
+$ cat 2023*/* | grep -v city > co2_emissions.csv
+```
+
+Now in your file explorer have a look and see that a new file has been created with all of the data.
+(Don't worry about the contents of this command - it will become clear as we progress through the lesson).
+
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- The shell lets you define repeatable workflows.
+- The shell is available on systems where graphical interfaces are not.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/
