@@ -8,20 +8,20 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-# 
+#
 # This option supports custom types so lessons can be branded
 # and themed with your own logo and alt-text (see `carpentry_description`)
 # See https://carpentries.github.io/sandpaper-docs/editing.html#adding-a-custom-logo
 carpentry: 'incubator'
 
 # Alt-text description of the lesson.
-carpentry_description: 'Lesson Description'
+carpentry_description: 'Introduction to Research Software Development with Python'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Introduction to Research Software Development with Python'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2026-07-10
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries' # FIXME
@@ -29,19 +29,19 @@ keywords: 'software, data, lesson, The Carpentries' # FIXME
 # Life cycle stage of the lesson
 # refer to <https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html> for details
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'stable' # FIXME
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/Southampton-RSG-Training/intro-software-dev' # FIXME
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'p.k.broadbent@soton.ac.uk' # FIXME
 
 # Navigation ------------------------------------------------
 #
@@ -65,18 +65,27 @@ contact: 'team@carpentries.org' # FIXME
 # - one-learner.md
 # - another-learner.md
 
+# Disable sidebar automatic numbering
+disable_sidebar_numbering: true
+
 # Order of episodes in your lesson
-episodes: 
-- introduction.md
+episodes:
+- 10-introducing-the-shell.md
+- 11-files-and-directories.md
+- 12-creating-things.md
+- 13-wildcards-pipes-and-filters.md
+- 14-finding-things.md
+- 15-shell-scripts.md
+- 16-loops.md
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
