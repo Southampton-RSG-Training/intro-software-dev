@@ -36,7 +36,7 @@ $ nano middle.sh
 So why the .sh extension to the filename? Adding `.sh` is the convention to show that this is a Bash shell script.
 Now, enter the line `head -15 sc_climate_data_1000.csv | tail -5` into our new file:
 
-![Nano Display of the script](fig/nano-middle-script.png){alt='Screenshot of nano showing the head/tail pipeline typed into middle.sh.'}
+![Nano Display of the script](fig/bash-figs/nano-middle-script.png){alt='Screenshot of nano showing the head/tail pipeline typed into middle.sh.'}
 
 Then save it and exit `nano` (using `Control-O` to save it and then `Control-X` to exit `nano`).
 
@@ -90,7 +90,7 @@ let's edit `middle.sh` and replace `sc_climate_data_1000.csv` with a special var
 $ nano middle.sh
 ```
 
-![Nano Display of the script2](fig/nano-middle-script2.png){alt='Screenshot of nano showing middle.sh updated to use the $1 variable.'}
+![Nano Display of the script2](fig/bash-figs/nano-middle-script2.png){alt='Screenshot of nano showing middle.sh updated to use the $1 variable.'}
 
 Inside a shell script,
 `$1` means the first filename (or other argument) passed to the script on the command line.
@@ -170,7 +170,7 @@ This does work,
 but it may take the next person who reads `middle.sh` a moment to figure out what it does.
 We can improve our script by adding some **comments** at the top:
 
-![Adding comments in the script](fig/nano-middle-script-comment.png){alt='Screenshot of nano showing comments added above the head/tail command in middle.sh.'}
+![Adding comments in the script](fig/bash-figs/nano-middle-script-comment.png){alt='Screenshot of nano showing comments added above the head/tail command in middle.sh.'}
 
 ```bash
 $ cat middle.sh
@@ -271,7 +271,7 @@ command from taking input and return you to the command line prompt.
 
 Again, we should explain what we are trying to do here using a comment, for example:
 
-![Adding comments in the script2](fig/nano-middle-script-comment2.png){alt='Screenshot of nano showing comments added to sorted.sh explaining what happens with no arguments.'}
+![Adding comments in the script2](fig/bash-figs/nano-middle-script-comment2.png){alt='Screenshot of nano showing comments added to sorted.sh explaining what happens with no arguments.'}
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: callout

@@ -64,7 +64,7 @@ Software is like that.
 ## Forever, or Five Years
 
 We haven't linked to the original haikus because they don't appear to be on *Salon*'s site any longer.
-As [Jeff Rothenberg said](http://www.clir.org/pubs/archives/ensuring.pdf),
+As [Jeff Rothenberg said](https://www.clir.org/pubs/archives/ensuring.pdf),
 "Digital information lasts forever --- or five years, whichever comes first."
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -250,7 +250,7 @@ Again,
 it has a lot of options;
 to show how the simplest ones work, we'll use the directory tree shown below.
 
-![File Tree for Find Example](fig/find-file-tree_new.png){alt='Diagram of the writing directory tree, showing haiku.txt and the thesis, data, tools, and old subdirectories with their contents.'}
+![File Tree for Find Example](fig/bash-figs/find-file-tree_new.png){alt='Diagram of the writing directory tree, showing haiku.txt and the thesis, data, tools, and old subdirectories with their contents.'}
 
 Nelle's `writing` directory contains one file called `haiku.txt` and four subdirectories:
 `thesis` (which contains a sadly empty file, `empty-draft.md`),

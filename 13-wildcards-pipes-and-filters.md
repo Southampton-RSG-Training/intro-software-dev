@@ -586,7 +586,7 @@ we get three processes with data flowing from the files,
 through `wc` to `sort`,
 and from `sort` through `head` to the screen.
 
-![Redirects and Pipes](fig/redirects-and-pipes.png){alt='Diagram showing data flowing from files, through wc and sort, to head and then the screen.'}
+![Redirects and Pipes](fig/bash-figs/redirects-and-pipes.png){alt='Diagram showing data flowing from files, through wc and sort, to head and then the screen.'}
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints

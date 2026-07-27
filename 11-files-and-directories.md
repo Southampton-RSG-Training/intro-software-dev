@@ -131,7 +131,7 @@ this is the leading slash in `/Users/nelle`.
 
 Let's continue looking at Nelle's hypothetical file system as an example. Inside the `/` directory are several other directories, for example:
 
-![The File System](fig/filesystem.svg){alt='Diagram of a file system showing the root directory branching into bin, data, Users, and tmp directories.'}
+![The File System](fig/bash-figs/filesystem.svg){alt='Diagram of a file system showing the root directory branching into bin, data, Users, and tmp directories.'}
 
 So here we have the following directories:
 
@@ -153,7 +153,7 @@ we find one directory for each user with an account on this machine, e.g.:
 and ours in `/Users/nelle`,
 which is why `nelle` is the last part of the directory's name.
 
-![Home Directories](fig/home-directories.svg){alt='Diagram showing the Users directory branching into individual home directories for imhotep, larry, and nelle.'}
+![Home Directories](fig/bash-figs/home-directories.svg){alt='Diagram showing the Users directory branching into individual home directories for imhotep, larry, and nelle.'}
 
 ::::::::::::::::::::::::::::::::::::: callout
 ## Slashes
@@ -456,7 +456,7 @@ $ ls -F /
 
 A typical shell command consists of three main components:
 
-![Shell Command Syntax](fig/shell_command_syntax.svg){alt='Diagram breaking the command "ls -F /" down into its command, option, and argument components.'}
+![Shell Command Syntax](fig/bash-figs/shell_command_syntax.svg){alt='Diagram breaking the command "ls -F /" down into its command, option, and argument components.'}
 
 - **`ls`** is the **command** you want to run. So this is the action you want to perform.
 - **`-F`** is an **option**, which allows you to modify the behavior of the command `ls`. Options can be single-letter (short options) prefixed with a single dash (`-`) or longer and more descriptive (long options) with two dashes (`--`). For example, here `-F` is a short option, and `--format` is its long form. Long options provide a more human-readable way to modify command behavior. Note that some options, like `-n`, always require an argument to work. If you use an option that needs an argument without providing one, the command will report an error.
@@ -553,7 +553,7 @@ Once you're inside the manual, you might see a message like "**Manual page ls(1)
 
 ## Exercises
 
-![File System for Challenge Questions](fig/filesystem_challenge_updated.png){alt='Diagram of a file system tree used as the basis for the challenge questions below.'}
+![File System for Challenge Questions](fig/bash-figs/filesystem_challenge_updated.png){alt='Diagram of a file system tree used as the basis for the challenge questions below.'}
 
 ::::::::::::::::::::::::::::::::::::: challenge
 ## Challenge 1: Relative path resolution
