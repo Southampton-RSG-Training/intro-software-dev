@@ -40,7 +40,7 @@ pyplot.show()
 pyplot keeps track of the graph as we are building it, so when we do `pyplot.show()` it's
 just showing us what's been built so far.
 
-![Heatmap of the Data](fig/python-figs/python-figs/01-numpy_74_0.png)
+![Heatmap of the Data](fig/python-figs/01-numpy_74_0.png){alt="Heatmap of the data"}
 
 Blue regions in this heat map are low values, while red shows high values.
 As we can see, inflammation rises and falls over a 40-day period.
@@ -64,7 +64,7 @@ pyplot.show()
 ```
 
 
-![Average Inflammation Over Time](fig/python-figs/01-numpy_76_0.png)
+![Average Inflammation Over Time](fig/python-figs/01-numpy_76_0.png){alt="Average Inflammation Over Time"}
 
 Here,
 we have put the average per day across all patients in the variable `ave_inflammation`,
@@ -81,7 +81,7 @@ pyplot.show()
 ```
 
 
-![Maximum Value Along The First Axis](fig/python-figs/01-numpy_78_1.png)
+![Maximum Value Along The First Axis](fig/python-figs/01-numpy_78_1.png){alt="Maximum Value Along The First Axis"}
 
 ```python
 pyplot.plot(data.min(axis=0))
@@ -89,7 +89,7 @@ pyplot.show()
 ```
 
 
-![Minimum Value Along The First Axis](fig/python-figs/01-numpy_78_3.png)
+![Minimum Value Along The First Axis](fig/python-figs/01-numpy_78_3.png){alt="Minimum Value Along The First Axis"}
 
 The maximum value rises and falls perfectly smoothly,
 while the minimum seems to be a step function.
@@ -136,7 +136,7 @@ Running the above code (present under `code` directory in the file `three-plots.
 
 `tight_layout` still works by falling back to a different way of generating the graph (the Agg renderer).
 
-![The Previous Plots as Subplots](fig/python-figs/01-numpy_83_0.png)
+![The Previous Plots as Subplots](fig/python-figs/01-numpy_83_0.png){alt="The Previous Plots as Subplots"}
 
 The call to `loadtxt` reads our data,
 and the rest of the program tells the plotting library
@@ -245,21 +245,21 @@ inflammation-01.csv
 ```
 
 
-![Analysis of inflammation-01.csv](fig/python-figs/03-loop_49_1.png)
+![Analysis of inflammation-01.csv](fig/python-figs/03-loop_49_1.png){alt="Analysis of inflammation-01.csv"}
 
 ```output
 inflammation-02.csv
 ```
 
 
-![Analysis of inflammation-02.csv](fig/python-figs/03-loop_49_3.png)
+![Analysis of inflammation-02.csv](fig/python-figs/03-loop_49_3.png){alt="Analysis of inflammation-02.csv"}
 
 ```output
 inflammation-03.csv
 ```
 
 
-![Analysis of inflammation-03.csv](fig/python-figs/03-loop_49_5.png)
+![Analysis of inflammation-03.csv](fig/python-figs/03-loop_49_5.png){alt="Analysis of inflammation-03.csv"}
 
 Sure enough,
 the maxima of the first two data sets show exactly the same ramp as the first,

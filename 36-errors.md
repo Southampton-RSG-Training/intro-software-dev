@@ -398,7 +398,7 @@ sometimes just knowing *where* the error occurred is enough to fix it,
 even if you don't entirely understand the message.
 
 If you do encounter an error you don't recognize,
-try looking at the [official documentation on errors](http://docs.python.org/3/library/exceptions.html).
+try looking at the [official documentation on errors](https://docs.python.org/3/library/exceptions.html).
 However,
 note that you may not always be able to find the error there,
 as it is possible to create custom errors.
@@ -578,8 +578,8 @@ beyond the scope of this course.
 
 If you're interested, look up [unit testing](https://en.wikipedia.org/wiki/Unit_testing)
 in general, and for Python,
-you can look at [Nose](http://nose.readthedocs.io/en/latest/) and
-[PyTest](http://doc.pytest.org/en/latest/)
+you can look at [Nose](https://nose.readthedocs.io/en/latest/) and
+[PyTest](https://doc.pytest.org/en/latest/)
 which are examples of tools used to write tests in an easy to use way.
 
 
