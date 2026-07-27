@@ -228,7 +228,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="bash-title.html">Automating Tasks with the Bash Shell</a>
+        <a href="bash-title.html"><em>Automating Tasks with the Bash Shell</em></a>
     </div>
 <!--/div.accordion-header-->
 
@@ -324,7 +324,7 @@
 <div class="accordion accordion-flush" id="accordionFlush10">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading10">
-        <a href="git-title.html">Version Control with Git and GitHub</a>
+        <a href="git-title.html"><em>Version Control with Git and GitHub</em></a>
     </div>
 <!--/div.accordion-header-->
 
@@ -432,7 +432,7 @@
 <div class="accordion accordion-flush" id="accordionFlush19">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading19">
-        <a href="python-title.html">Building Programs with Python</a>
+        <a href="python-title.html"><em>Building Programs with Python</em></a>
     </div>
 <!--/div.accordion-header-->
 
@@ -632,6 +632,14 @@
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
+<ul>
+<li>How can I use the command line to work more efficiently with files
+and folders?</li>
+<li>How can I automate repetitive tasks instead of performing them
+manually?</li>
+<li>How can I combine simple command-line tools to process research data
+quickly and reliably?</li>
+</ul>
 </div>
 </div>
 </div>
@@ -639,6 +647,18 @@
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
+<ul>
+<li>Navigate the file system and manage files and directories using the
+Bash shell.</li>
+<li>Use command-line tools to inspect, manipulate and search files.</li>
+<li>Redirect input and output to create efficient command-line
+workflows.</li>
+<li>Combine commands using pipes to perform more complex
+operations.</li>
+<li>Write loops to automate repetitive tasks across multiple files.</li>
+<li>Use pattern matching and search tools to locate files and extract
+information.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -3010,7 +3030,7 @@ instead:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Normally, <code>sort</code> goes character-by-character, sorting in
 <em>alphabetical</em> order. Just looking at the first character of each
@@ -3056,7 +3076,7 @@ the output files.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>If there isn’t a file already there with the name
 <code>testfile01.txt</code>, both <code>&gt;</code> and
@@ -3092,7 +3112,7 @@ least number of lines. Which command listed below would work?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>The correct answer is <strong>4</strong>. <code>wc -l *</code> will
 list the length of all files in the current directory. Piping the output
@@ -3155,7 +3175,7 @@ lines?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p><code>uniq</code> doesn’t search through entire files for matches, as
 in the shell we can be working with files that are 100s of MB or even
@@ -3216,7 +3236,7 @@ the pipeline below?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5"> Show me the solution </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li><p><code>cat animals.txt</code> outputs the full contents of the
@@ -3291,7 +3311,7 @@ reading comprehension</h3>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
   <h4 class="accordion-header" id="headingSolution6"> Show me the solution </h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
 <div class="accordion-body">
 <p>Find all files (in this directory and all subdirectories) that have a
 filename that ends in <code>.dat</code>, count the number of files
@@ -5294,7 +5314,7 @@ loops work.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>The first loop will give the output:</p>
 <div class="codewrapper">
@@ -5353,7 +5373,7 @@ concatenated and saved to a file called <code>xylose.dat</code>.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Correct.</li>
@@ -5415,7 +5435,7 @@ to the screen and saved to a file called <code>sugar.dat</code>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Correct.</li>
@@ -5479,7 +5499,7 @@ would we want to run?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>Version 2 is the one that successfully acts as a dry run. In version
 1, since the <code>&gt;</code> file redirect is not within quotes, the
@@ -5532,6 +5552,14 @@ any links that you are not going to use.
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
+<ul>
+<li>How can I keep track of changes to my research code and
+documents?</li>
+<li>How can Git help me recover from mistakes and experiment with
+confidence?</li>
+<li>How can I collaborate effectively with others using version
+control?</li>
+</ul>
 </div>
 </div>
 </div>
@@ -5539,6 +5567,15 @@ any links that you are not going to use.
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
+<ul>
+<li>Explain the purpose and benefits of version control in
+research.</li>
+<li>Create and manage a local Git repository.</li>
+<li>Record changes using meaningful commits.</li>
+<li>Inspect the history of a project and compare previous versions.</li>
+<li>Restore files or earlier versions of a project when needed.</li>
+<li>Work with branches to develop and test changes independently.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -5831,11 +5868,11 @@ experience with the shell is expected, <em>but isn’t mandatory</em>.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
 <p>Search for <strong>Terminal</strong> in your app list and launch
 it.</p>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
+<div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
 <p>Search for <strong>Git Bash</strong> in the start menu and launch
 it.</p>
 </div>
@@ -6802,7 +6839,7 @@ message “Added rainfall processing placeholder”. When you’re done,
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Edit the file using <code>nano</code>, remembering to use
 <code>Control-O</code> to write out, <code>Enter</code> to confirm the
@@ -7112,7 +7149,7 @@ commit.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>We can use <code>git log</code> to get a list of all of our commits
 we’ve made:</p>
@@ -8442,6 +8479,14 @@ ignore.</li>
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
+<ul>
+<li>How can I write Python programs to automate my research
+workflows?</li>
+<li>How can I organise my code so that it is readable, reusable and
+maintainable?</li>
+<li>How can I use Python libraries to analyse and visualise research
+data?</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8449,6 +8494,18 @@ ignore.</li>
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
+<ul>
+<li>Write simple Python programs using variables, data types and control
+flow.</li>
+<li>Define and use functions to organise reusable code.</li>
+<li>Read from and write to files using Python.</li>
+<li>Use external Python libraries to extend the functionality of
+programs.</li>
+<li>Produce clear and informative data visualisations using
+Matplotlib.</li>
+<li>Write well-documented and maintainable Python code following good
+programming practices.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -10619,7 +10676,7 @@ A call to your function should look like this:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -10712,7 +10769,7 @@ function.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>3 - the f and k variables defined and used within the function do not
 interfere with those defined outside of the function.</p>
@@ -10754,7 +10811,7 @@ look like this:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -12531,7 +12588,7 @@ Instead, we can combine the selection and the method call:</p>
 <p>What if we need the maximum inflammation for <em>all</em> patients,
 or the average for each day? As the diagram below shows, we want to
 perform the operation across an axis:</p>
-<figure><img src="../fig/python-figs/python-operations-across-axes.svg" alt="Operations Across Axes" class="figure mx-auto d-block"><div class="figcaption">Operations Across Axes</div>
+<figure><img src="../fig/python-figs/python-operations-across-axes.svg" alt="performing operations across axes" class="figure mx-auto d-block"><div class="figcaption">Operations Across Axes</div>
 </figure><p>To support this, most array methods allow us to specify the axis we
 want to work on. If we ask for the average across axis 0 (representing
 the patients axis), we get:</p>
