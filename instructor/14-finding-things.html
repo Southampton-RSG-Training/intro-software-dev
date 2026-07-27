@@ -108,7 +108,7 @@
     <a id="search-button" class="btn btn-primary" href="../instructor/aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
   </div><!--/div.container-fluid -->
 </nav><aside class="col-md-12 lesson-progress"><div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 49%" aria-valuenow="49" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">49%</div>
+    <div class="progress-bar incubator" role="progressbar" style="width: 34%" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">34%</div>
   </div>
 </aside><div class="container">
       <div class="row">
@@ -255,6 +255,78 @@
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading8">
         <a href="16-loops.html">1.6 Loops</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush9">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading9">
+        <a href="20-what-is-version-control.html">2.0 What is Version Control</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush10">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading10">
+        <a href="21-setting-up-git.html">2.1 Setting Up Git</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush11">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading11">
+        <a href="22-creating-a-repository.html">2.2 Creating a Repository</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush12">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading12">
+        <a href="23-tracking-changes.html">2.3 Tracking Changes</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush13">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading13">
+        <a href="24-exploring-history.html">2.4 Exploring History</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush14">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading14">
+        <a href="25-remote-repositories.html">2.5 Remote Repositories</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush15">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading15">
+        <a href="26-branching.html">2.6 Branching</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush16">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading16">
+        <a href="27-ignoring-things.html">2.7 Ignoring Things</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -414,7 +486,7 @@ Software is like that.</code></pre>
 <h3 class="callout-title">Forever, or Five Years</h3>
 <div class="callout-content">
 <p>We haven’t linked to the original haikus because they don’t appear to
-be on <em>Salon</em>’s site any longer. As <a href="http://www.clir.org/pubs/archives/ensuring.pdf" class="external-link">Jeff Rothenberg
+be on <em>Salon</em>’s site any longer. As <a href="https://www.clir.org/pubs/archives/ensuring.pdf" class="external-link">Jeff Rothenberg
 said</a>, “Digital information lasts forever — or five years, whichever
 comes first.”</p>
 </div>
@@ -629,7 +701,7 @@ character, similar to the <code>?</code> wildcard in the shell. - The
 command finds files themselves. Again, it has a lot of options; to show
 how the simplest ones work, we’ll use the directory tree shown
 below.</p>
-<figure><img src="../fig/find-file-tree_new.png" alt="Diagram of the writing directory tree, showing haiku.txt and the thesis, data, tools, and old subdirectories with their contents." class="figure mx-auto d-block"><div class="figcaption">File Tree for Find Example</div>
+<figure><img src="../fig/bash-figs/find-file-tree_new.png" alt="Diagram of the writing directory tree, showing haiku.txt and the thesis, data, tools, and old subdirectories with their contents." class="figure mx-auto d-block"><div class="figcaption">File Tree for Find Example</div>
 </figure><p>Nelle’s <code>writing</code> directory contains one file called
 <code>haiku.txt</code> and four subdirectories: <code>thesis</code>
 (which contains a sadly empty file, <code>empty-draft.md</code>),
@@ -948,7 +1020,7 @@ which command would result in the following output:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>Incorrect, since it will find lines that contain <code>of</code>
 including those that are not a complete word, including “Software is
@@ -990,7 +1062,7 @@ reading comprehension</h3>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Find all files (in this directory and all subdirectories) that have a
 filename that ends in <code>.dat</code>, count the number of files
@@ -1028,7 +1100,7 @@ in <code>/data</code> whose names end in <code>ose.dat</code> (e.g.,
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>Incorrect, since the first <code>grep</code> will find all filenames
 that contain <code>ose</code> wherever it may occur, and also because

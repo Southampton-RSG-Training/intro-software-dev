@@ -309,6 +309,102 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush9">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading9">
+        <a href="20-what-is-version-control.html">2.0 What is Version Control</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush10">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading10">
+        <a href="21-setting-up-git.html">2.1 Setting Up Git</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush11">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading11">
+        <a href="22-creating-a-repository.html">2.2 Creating a Repository</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush12">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading12">
+        <a href="23-tracking-changes.html">2.3 Tracking Changes</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush13">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading13">
+        <a href="24-exploring-history.html">2.4 Exploring History</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush14">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading14">
+        <a href="25-remote-repositories.html">2.5 Remote Repositories</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush15">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading15">
+        <a href="26-branching.html">2.6 Branching</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush16">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading16">
+        <a href="27-ignoring-things.html">2.7 Ignoring Things</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -511,6 +607,70 @@ it is currently operating on.</li>
 in filenames, as it complicates variable expansion.</li>
 <li>Give files consistent names that are easy to match with wildcard
 patterns to make it easy to select them for looping.</li>
+</ul></section><section id="20-what-is-version-control"><h2 class="section-heading"><a href="20-what-is-version-control.html">2.0 What is Version Control</a></h2>
+<hr class="half-width">
+<ul>
+<li>Version control is like an unlimited ‘undo’.</li>
+<li>Version control also allows many people to work in parallel.</li>
+</ul></section><section id="21-setting-up-git"><h2 class="section-heading"><a href="21-setting-up-git.html">2.1 Setting Up Git</a></h2>
+<hr class="half-width">
+<ul>
+<li>Use <code>git config</code> with the <code>--global</code> option to
+configure a user name, email address, editor, and other preferences once
+per machine.</li>
+<li>GitHub needs an SSH key to allow access.</li>
+</ul></section><section id="22-creating-a-repository"><h2 class="section-heading"><a href="22-creating-a-repository.html">2.2 Creating a RepositoryExploring a Repository<a class="anchor" aria-label="anchor" href="#exploring-a-repository"></a></a></h2>
+<hr class="half-width">
+<ul>
+<li>
+<code>git clone</code> creates a local copy of a repository from a
+URL.</li>
+<li>Git stores all of its repository data in the <code>.git</code>
+directory.</li>
+</ul></section><section id="23-tracking-changes"><h2 class="section-heading"><a href="23-tracking-changes.html">2.3 Tracking Changes</a></h2>
+<hr class="half-width">
+<ul>
+<li>
+<code>git status</code> shows the status of a repository.</li>
+<li>Files can be stored in a project’s working directory (which users
+see), the staging area (where the next commit is being built up) and the
+local repository (where commits are permanently recorded).</li>
+<li>
+<code>git add</code> puts files in the staging area.</li>
+<li>
+<code>git commit</code> saves the staged content as a new commit in
+the local repository.</li>
+<li>Write commit messages that accurately describe your changes.</li>
+<li>
+<code>git log --decorate</code> lists the commits made to the local
+repository, along with whether or not they are up-to-date with any
+remote repository.</li>
+</ul></section><section id="24-exploring-history"><h2 class="section-heading"><a href="24-exploring-history.html">2.4 Exploring History</a></h2>
+<hr class="half-width">
+<ul>
+<li>
+<code>git diff</code> displays differences between commits.</li>
+<li>
+<code>git checkout</code> recovers old versions of files.</li>
+</ul></section><section id="25-remote-repositories"><h2 class="section-heading"><a href="25-remote-repositories.html">2.5 Remote Repositories</a></h2>
+<hr class="half-width">
+<ul>
+<li>Git can easily synchronise your local repository with a remote
+one.</li>
+<li>GitHub needs an SSH key to allow access.</li>
+<li>Git can resolve ‘conflicting’ modifications to text files.</li>
+</ul></section><section id="26-branching"><h2 class="section-heading"><a href="26-branching.html">2.6 Branching</a></h2>
+<hr class="half-width">
+<ul>
+<li>Branches are parallel versions of a repository.</li>
+<li>You can easily switch between branches, and merge their
+changes.</li>
+<li>Branches help with code sharing and collaboration.</li>
+</ul></section><section id="27-ignoring-things"><h2 class="section-heading"><a href="27-ignoring-things.html">2.7 Ignoring Things</a></h2>
+<hr class="half-width">
+<ul>
+<li>The <code>.gitignore</code> file tells Git what files to
+ignore.</li>
 </ul></section>
 </div>
     </main>

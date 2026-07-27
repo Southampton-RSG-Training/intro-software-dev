@@ -108,7 +108,7 @@
     <a id="search-button" class="btn btn-primary" href="aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
   </div><!--/div.container-fluid -->
 </nav><aside class="col-md-12 lesson-progress"><div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 7%" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">7%</div>
+    <div class="progress-bar incubator" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">5%</div>
   </div>
 </aside><div class="container">
       <div class="row">
@@ -256,6 +256,78 @@
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading8">
         <a href="16-loops.html">1.6 Loops</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush9">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading9">
+        <a href="20-what-is-version-control.html">2.0 What is Version Control</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush10">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading10">
+        <a href="21-setting-up-git.html">2.1 Setting Up Git</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush11">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading11">
+        <a href="22-creating-a-repository.html">2.2 Creating a Repository</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush12">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading12">
+        <a href="23-tracking-changes.html">2.3 Tracking Changes</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush13">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading13">
+        <a href="24-exploring-history.html">2.4 Exploring History</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush14">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading14">
+        <a href="25-remote-repositories.html">2.5 Remote Repositories</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush15">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading15">
+        <a href="26-branching.html">2.6 Branching</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush16">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading16">
+        <a href="27-ignoring-things.html">2.7 Ignoring Things</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -497,7 +569,7 @@ slash character <code>/</code> on its own; this is the leading slash in
 <p>Let’s continue looking at Nelle’s hypothetical file system as an
 example. Inside the <code>/</code> directory are several other
 directories, for example:</p>
-<figure><img src="fig/filesystem.svg" alt="Diagram of a file system showing the root directory branching into bin, data, Users, and tmp directories." class="figure mx-auto d-block"><div class="figcaption">The File System</div>
+<figure><img src="fig/bash-figs/filesystem.svg" alt="Diagram of a file system showing the root directory branching into bin, data, Users, and tmp directories." class="figure mx-auto d-block"><div class="figcaption">The File System</div>
 </figure><p>So here we have the following directories:</p>
 <ul><li>
 <code>bin</code> (which is where some built-in programs are
@@ -519,7 +591,7 @@ with <code>/</code>.</p>
 with an account on this machine, e.g.: <code>/Users/imhotep</code>,
 <code>/Users/larry</code>, and ours in <code>/Users/nelle</code>, which
 is why <code>nelle</code> is the last part of the directory’s name.</p>
-<figure><img src="fig/home-directories.svg" alt="Diagram showing the Users directory branching into individual home directories for imhotep, larry, and nelle." class="figure mx-auto d-block"><div class="figcaption">Home Directories</div>
+<figure><img src="fig/bash-figs/home-directories.svg" alt="Diagram showing the Users directory branching into individual home directories for imhotep, larry, and nelle." class="figure mx-auto d-block"><div class="figcaption">Home Directories</div>
 </figure><div id="slashes" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -897,7 +969,7 @@ component parts:</p>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb37-1"><a href="#cb37-1" tabindex="-1" aria-label="code-block-37-1"></a><span class="ex">$</span> ls <span class="at">-F</span> /</span></code></pre>
 </div>
 <p>A typical shell command consists of three main components:</p>
-<figure><img src="fig/shell_command_syntax.svg" alt='Diagram breaking the command "ls -F /" down into its command, option, and argument components.' class="figure mx-auto d-block"><div class="figcaption">Shell Command Syntax</div>
+<figure><img src="fig/bash-figs/shell_command_syntax.svg" alt='Diagram breaking the command "ls -F /" down into its command, option, and argument components.' class="figure mx-auto d-block"><div class="figcaption">Shell Command Syntax</div>
 </figure><ul><li>
 <strong><code>ls</code></strong> is the <strong>command</strong> you
 want to run. So this is the action you want to perform.</li>
@@ -1044,7 +1116,7 @@ there to help you. To navigate the manual, you can press
 you’re done reading.</p>
 </div>
 </section><section><h2 class="section-heading" id="exercises">Exercises<a class="anchor" aria-label="anchor" href="#exercises"></a></h2>
-<hr class="half-width"><figure><img src="fig/filesystem_challenge_updated.png" alt="Diagram of a file system tree used as the basis for the challenge questions below." class="figure mx-auto d-block"><div class="figcaption">File System for Challenge Questions</div>
+<hr class="half-width"><figure><img src="fig/bash-figs/filesystem_challenge_updated.png" alt="Diagram of a file system tree used as the basis for the challenge questions below." class="figure mx-auto d-block"><div class="figcaption">File System for Challenge Questions</div>
 </figure><div id="challenge-1-relative-path-resolution" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
@@ -1067,7 +1139,7 @@ you’re done reading.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><strong>4</strong> is correct. <code>ls</code> shows the contents of
 the path you give it, and <code>../backup</code> means “Go up one level,
@@ -1105,7 +1177,7 @@ order, what command will display:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p><strong>4</strong> is correct. The current directory (as shown by
 <code>pwd</code>) is <code>/Users/backup</code>, so <code>ls</code> will
