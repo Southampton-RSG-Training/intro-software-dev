@@ -1,5 +1,5 @@
 ---
-title: "AUtomating Tasks with the Bash Shell - 1.0 Introducing the Shell"
+title: "1.0 Introducing the Shell"
 teaching: 10 # teaching time in minutes
 exercises: 5 # exercise time in minutes
 ---

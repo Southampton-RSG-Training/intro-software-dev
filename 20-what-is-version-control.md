@@ -1,5 +1,5 @@
 ---
-title: "Version Control with Git and GitHub 2.0 What is Version Control?"
+title: "2.0 What is Version Control?"
 slug: git-novice-what-is-version-control
 teaching: 5
 exercises: 0
