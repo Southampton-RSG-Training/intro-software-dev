@@ -212,7 +212,7 @@ Which leads to a good point about comments: generally, they should explain
 the **why**. In most cases, the code already explains the **how**, so if
 something could be considered unclear, add a comment.
 
-A [good philosophy on code comments](http://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) is that **the best kind of comments are
+A [good philosophy on code comments](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) is that **the best kind of comments are
 the ones you don't need**. You should write your code so it's easier to
 understand without comments first, and only add comments when it **cannot**
 be made easier to understand.
