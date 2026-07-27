@@ -1,5 +1,5 @@
 ---
-title: "3.0 Python Basics"
+title: "Building Programs with Python - 3.0 Python Basics"
 teaching: 15 # teaching time in minutes
 exercises: 10 # exercise time in minutes
 ---
