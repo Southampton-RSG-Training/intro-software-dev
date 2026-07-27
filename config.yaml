@@ -12,10 +12,10 @@
 # This option supports custom types so lessons can be branded
 # and themed with your own logo and alt-text (see `carpentry_description`)
 # See https://carpentries.github.io/sandpaper-docs/editing.html#adding-a-custom-logo
-carpentry: 'incubator'
+carpentry: 'rsg'
 
 # Alt-text description of the lesson.
-carpentry_description: 'Introduction to Research Software Development with Python'
+carpentry_description: 'Southampton Research Software Group'
 
 # Overall title for pages.
 title: 'Introduction to Research Software Development with Python'
@@ -41,7 +41,7 @@ source: 'https://github.com/Southampton-RSG-Training/intro-software-dev' # FIXME
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'p.k.broadbent@soton.ac.uk' # FIXME
+contact: 'rsg-info@soton.ac.uk' # FIXME
 
 # Navigation ------------------------------------------------
 #
@@ -114,4 +114,4 @@ profiles:
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 
-
+varnish: Southampton-RSG-Training/varnish
