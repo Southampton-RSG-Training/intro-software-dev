@@ -85,6 +85,16 @@ episodes:
 - 25-remote-repositories.md
 - 26-branching.md
 - 27-ignoring-things.md
+- 30-basic.md
+- 31-lists.md
+- 32-loops.md
+- 33-files.md
+- 34-cond.md
+- 35-functions.md
+- 36-errors.md
+- 37-cmdline.md
+- 38-numpy.md
+- 39-matplotlib.md
 
 # Information for Learners
 learners:
