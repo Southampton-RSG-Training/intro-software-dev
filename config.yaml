@@ -70,6 +70,7 @@ disable_sidebar_numbering: true
 
 # Order of episodes in your lesson
 episodes:
+- bash-title.md
 - 10-introducing-the-shell.md
 - 11-files-and-directories.md
 - 12-creating-things.md
@@ -77,6 +78,7 @@ episodes:
 - 14-finding-things.md
 - 15-shell-scripts.md
 - 16-loops.md
+- git-title.md
 - 20-what-is-version-control.md
 - 21-setting-up-git.md
 - 22-creating-a-repository.md
@@ -85,6 +87,7 @@ episodes:
 - 25-remote-repositories.md
 - 26-branching.md
 - 27-ignoring-things.md
+- python-title.md
 - 30-basic.md
 - 31-lists.md
 - 32-loops.md
@@ -104,6 +107,7 @@ instructors:
 
 # Learner Profiles
 profiles:
+- learner-profiles.md
 
 # Customisation ---------------------------------------------
 #

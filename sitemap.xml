@@ -91,7 +91,13 @@
     <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/aio.html</loc>
   </url>
   <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/bash-title.html</loc>
+  </url>
+  <url>
     <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/citation.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/git-title.html</loc>
   </url>
   <url>
     <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/images.html</loc>
@@ -190,7 +196,13 @@
     <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/aio.html</loc>
   </url>
   <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/bash-title.html</loc>
+  </url>
+  <url>
     <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/citation.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/git-title.html</loc>
   </url>
   <url>
     <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/images.html</loc>
@@ -211,6 +223,9 @@
     <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/profiles.html</loc>
   </url>
   <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/python-title.html</loc>
+  </url>
+  <url>
     <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/instructor/reference.html</loc>
   </url>
   <url>
@@ -224,6 +239,9 @@
   </url>
   <url>
     <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/python-title.html</loc>
   </url>
   <url>
     <loc>https://Southampton-RSG-Training.github.io/intro-software-dev/reference.html</loc>
