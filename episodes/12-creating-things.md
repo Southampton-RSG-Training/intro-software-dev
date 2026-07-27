@@ -92,7 +92,7 @@ We add a filename after the `nano` command to tell it that we want to edit (or i
 
 Now, let's type in a few lines of text, for example:
 
-![Nano in action](fig/nano-screenshot.png){alt='Screenshot of the nano text editor with some text typed into it.'}
+![Nano in action](fig/bash-figs/nano-screenshot.png){alt='Screenshot of the nano text editor with some text typed into it.'}
 
 Once we have a few words, to save this data in a new `draft.txt` file we then use `Control-O` (pressing `Control` and the letter `O` at the same time), and then press `Enter` to confirm the filename.
 
@@ -107,7 +107,7 @@ human-friendly media. We use it in examples because almost anyone can
 drive it anywhere without training, but please use something more
 powerful for real work.
 
-On Windows, you may wish to use [Notepad++](http://notepad-plus-plus.org/).
+On Windows, you may wish to use [Notepad++](https://notepad-plus-plus.org/).
 A more powerful example is Microsoft's [VSCode](https://code.visualstudio.com/).
 It's a fairly standard text editor that can be
 installed on Windows, Mac or Linux but also has some handy features like

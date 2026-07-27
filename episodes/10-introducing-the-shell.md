@@ -64,7 +64,7 @@ You have been given a set of CO~2~ emissions data for the UK to analyse, located
 
 When you navigate to the `shell-novice/shell/test_directory/co2_data` folder, you'll see that it contains various subfolders with the `YYYYMM` date format, as shown in the image below:
 
-![Test Directory structure](fig/co2_data_structure.png){alt='Test Directory structure' height='400'}
+![Test Directory structure](fig/bash-figs/co2_data_structure.png){alt='Test Directory structure' height='400'}
 
 Upon inspecting these subfolders, you'll notice an issue with the data labeling. The files have been incorrectly labeled as dicarbon monoxide, while they actually contain carbon dioxide emissions data for analysis.
 
@@ -119,7 +119,7 @@ CSV file contains data for a specific city and is categorized by the correspondi
 with the first line containing column headers, followed by the data. To understand the structure, inspect one of the CSV
 files. An example image illustrating the structure from a file named `co2_202301_Aberdeen.csv` is provided below:
 
-![Example CSV structure](fig/Example_csv_format.png){alt='Example CSV structure' height='600'}
+![Example CSV structure](fig/bash-figs/Example_csv_format.png){alt='Example CSV structure' height='600'}
 
 Now, imagine the computer program you were going to use for data analysis requires you to combine the data from all these CSV
 files into a single file, excluding the first line with field descriptions. Using a GUI, you'd need to open each file, cut

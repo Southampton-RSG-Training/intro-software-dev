@@ -77,6 +77,14 @@ episodes:
 - 14-finding-things.md
 - 15-shell-scripts.md
 - 16-loops.md
+- 20-what-is-version-control.md
+- 21-setting-up-git.md
+- 22-creating-a-repository.md
+- 23-tracking-changes.md
+- 24-exploring-history.md
+- 25-remote-repositories.md
+- 26-branching.md
+- 27-ignoring-things.md
 
 # Information for Learners
 learners:
