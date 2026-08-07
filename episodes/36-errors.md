@@ -46,7 +46,7 @@ Traceback (most recent call last):
 NameError: name 'a' is not defined
 ```
 
-Take a look at the traceback. It shows 1 level of error, here, Name Error. The traceback shows shows the line number where the error occured and the type of error.
+Take a look at the traceback. It shows 1 level of error, here, Name Error. The traceback shows the line number where the error occurred and the type of error.
 
 Variable name errors come with some of the most informative error messages, which are usually of the form “name ‘the_variable_name’ is not defined”.
 
