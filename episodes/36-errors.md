@@ -372,8 +372,8 @@ favorite_ice_cream()
 
 ```error
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "<stdin>", line 9, in favorite_ice_cream
+  File "<stdin>", line 9, in <module>
+  File "<stdin>", line 7, in favorite_ice_cream
 IndexError: list index out of range
 ```
 
@@ -382,16 +382,16 @@ You can determine the number of levels by looking for the number of arrows on th
 In this case:
 
 1.  The first shows code from the cell above,
-    with an arrow pointing to Line 8 (which is `favorite_ice_cream()`).
+    with an arrow pointing to Line 9 (which is `favorite_ice_cream()`).
 
 2.  The second shows some code in the function `favorite_ice_cream`,
-    with an arrow pointing to Line 6 (which is `print(ice_creams[3])`).
+    with an arrow pointing to Line 7 (which is `print(ice_creams[3])`).
 
 The last level is the actual place where the error occurred.
 The other level(s) show what function the program executed to get to the next level down.
 So, in this case, the program first performed a function call to the function `favorite_ice_cream`.
 Inside this function,
-the program encountered an error on Line 6, when it tried to run the code `print(ice_creams[3])`.
+the program encountered an error on Line 7, when it tried to run the code `print(ice_creams[3])`.
 
 ::::::::::::::::::::::::::::::::::::: callout
 
