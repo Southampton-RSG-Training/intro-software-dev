@@ -35,5 +35,5 @@
 "episodes/39-matplotlib.md" "ad6dde4b6da780ca08821da7c629a2e3" "site/built/39-matplotlib.md" "2026-10-23"
 "instructors/instructor-notes.md" "cae72b6712578d74a49fea7513099f8c" "site/built/instructor-notes.md" "2023-03-16"
 "learners/reference.md" "d80ba7a41810d15653dcc643e131ba2c" "site/built/reference.md" "2026-07-27"
-"learners/setup.md" "fb4b29ef416ef6ae303376fe9ad172f3" "site/built/setup.md" "2026-10-23"
+"learners/setup.md" "56184480e2bc02f222381ae850d91b17" "site/built/setup.md" "2026-10-23"
 "profiles/learner-profiles.md" "32999eecd2430258555e9fde909e8594" "site/built/learner-profiles.md" "2026-07-27"
