@@ -960,23 +960,23 @@ index:</p>
 <h3 class="code-label">ERROR<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="error" tabindex="0"><code>Traceback (most recent call last):
-  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
-  File "&lt;stdin&gt;", line 9, in favorite_ice_cream
+  File "&lt;stdin&gt;", line 9, in &lt;module&gt;
+  File "&lt;stdin&gt;", line 7, in favorite_ice_cream
 IndexError: list index out of range</code></pre>
 </div>
 <p>This particular traceback has two levels. You can determine the
 number of levels by looking for the number of arrows on the left hand
 side. In this case:</p>
 <ol style="list-style-type: decimal"><li><p>The first shows code from the cell above, with an arrow pointing
-to Line 8 (which is <code>favorite_ice_cream()</code>).</p></li>
+to Line 9 (which is <code>favorite_ice_cream()</code>).</p></li>
 <li><p>The second shows some code in the function
-<code>favorite_ice_cream</code>, with an arrow pointing to Line 6 (which
+<code>favorite_ice_cream</code>, with an arrow pointing to Line 7 (which
 is <code>print(ice_creams[3])</code>).</p></li>
 </ol><p>The last level is the actual place where the error occurred. The
 other level(s) show what function the program executed to get to the
 next level down. So, in this case, the program first performed a
 function call to the function <code>favorite_ice_cream</code>. Inside
-this function, the program encountered an error on Line 6, when it tried
+this function, the program encountered an error on Line 7, when it tried
 to run the code <code>print(ice_creams[3])</code>.</p>
 <div id="long-tracebacks" class="callout">
 <div class="callout-square">
