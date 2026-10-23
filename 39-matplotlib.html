@@ -516,7 +516,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>3.9 Data Visualisation</h1>
-        <p>Last updated on 2026-07-27 |
+        <p>Last updated on 2026-10-23 |
 
         <a href="https://github.com/Southampton-RSG-Training/intro-software-dev/edit/main/episodes/39-matplotlib.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -571,8 +571,7 @@ previous topic:</p>
 <p>pyplot keeps track of the graph as we are building it, so when we do
 <code>pyplot.show()</code> it’s just showing us what’s been built so
 far.</p>
-<figure><img src="fig/python-figs/01-numpy_74_0.png" alt="Heatmap of the data" class="figure mx-auto d-block"><div class="figcaption">Heatmap of the Data</div>
-</figure><p>Blue regions in this heat map are low values, while red shows high
+<figure><img src="fig/python-figs/01-numpy_74_0.png" alt="Heatmap of the data" class="figure mx-auto d-block"></figure><p>Blue regions in this heat map are low values, while red shows high
 values. As we can see, inflammation rises and falls over a 40-day
 period.</p>
 <p>Note that if we try and run <code>pyplot.show()</code> again, the
@@ -593,8 +592,7 @@ again, we need to generate the plot again, e.g.:</p>
 <span id="cb3-2"><a href="#cb3-2" tabindex="-1" aria-label="code-block-3-2"></a>pyplot.plot(ave_inflammation)</span>
 <span id="cb3-3"><a href="#cb3-3" tabindex="-1" aria-label="code-block-3-3"></a>pyplot.show()</span></code></pre>
 </div>
-<figure><img src="fig/python-figs/01-numpy_76_0.png" alt="Average Inflammation Over Time" class="figure mx-auto d-block"><div class="figcaption">Average Inflammation Over Time</div>
-</figure><p>Here, we have put the average per day across all patients in the
+<figure><img src="fig/python-figs/01-numpy_76_0.png" alt="Average Inflammation Over Time" class="figure mx-auto d-block"></figure><p>Here, we have put the average per day across all patients in the
 variable <code>ave_inflammation</code>, then asked <code>pyplot</code>
 to create and display a line graph of those values. The result is
 roughly a linear rise and fall, which is suspicious: based on other
@@ -606,15 +604,13 @@ two other statistics:</p>
 <pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" tabindex="-1" aria-label="code-block-4-1"></a>pyplot.plot(data.<span class="bu">max</span>(axis<span class="op">=</span><span class="dv">0</span>))</span>
 <span id="cb4-2"><a href="#cb4-2" tabindex="-1" aria-label="code-block-4-2"></a>pyplot.show()</span></code></pre>
 </div>
-<figure><img src="fig/python-figs/01-numpy_78_1.png" alt="Maximum Value Along The First Axis" class="figure mx-auto d-block"><div class="figcaption">Maximum Value Along The First Axis</div>
-</figure><div class="codewrapper sourceCode" id="cb5">
+<figure><img src="fig/python-figs/01-numpy_78_1.png" alt="Maximum Value Along The First Axis" class="figure mx-auto d-block"></figure><div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" tabindex="-1" aria-label="code-block-5-1"></a>pyplot.plot(data.<span class="bu">min</span>(axis<span class="op">=</span><span class="dv">0</span>))</span>
 <span id="cb5-2"><a href="#cb5-2" tabindex="-1" aria-label="code-block-5-2"></a>pyplot.show()</span></code></pre>
 </div>
-<figure><img src="fig/python-figs/01-numpy_78_3.png" alt="Minimum Value Along The First Axis" class="figure mx-auto d-block"><div class="figcaption">Minimum Value Along The First Axis</div>
-</figure><p>The maximum value rises and falls perfectly smoothly, while the
+<figure><img src="fig/python-figs/01-numpy_78_3.png" alt="Minimum Value Along The First Axis" class="figure mx-auto d-block"></figure><p>The maximum value rises and falls perfectly smoothly, while the
 minimum seems to be a step function. Neither result seems particularly
 likely, so either there’s a mistake in our calculations or something is
 wrong with our data.</p>
@@ -658,8 +654,7 @@ you see the warning, please ignore it.</p>
 </div>
 <p><code>tight_layout</code> still works by falling back to a different
 way of generating the graph (the Agg renderer).</p>
-<figure><img src="fig/python-figs/01-numpy_83_0.png" alt="The Previous Plots as Subplots" class="figure mx-auto d-block"><div class="figcaption">The Previous Plots as Subplots</div>
-</figure><p>The call to <code>loadtxt</code> reads our data, and the rest of the
+<figure><img src="fig/python-figs/01-numpy_83_0.png" alt="The Previous Plots as Subplots" class="figure mx-auto d-block"></figure><p>The call to <code>loadtxt</code> reads our data, and the rest of the
 program tells the plotting library how large we want the figure to be,
 that we’re creating three sub-plots, and what to draw for each one.</p>
 <div id="make-your-own-plot" class="callout challenge">
@@ -777,20 +772,17 @@ by analyzing the first three files in the list:</p>
 </h3>
 <pre class="output" tabindex="0"><code>inflammation-01.csv</code></pre>
 </div>
-<figure><img src="fig/python-figs/03-loop_49_1.png" alt="Analysis of inflammation-01.csv" class="figure mx-auto d-block"><div class="figcaption">Analysis of inflammation-01.csv</div>
-</figure><div class="codewrapper">
+<figure><img src="fig/python-figs/03-loop_49_1.png" alt="Analysis of inflammation-01.csv" class="figure mx-auto d-block"></figure><div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="output" tabindex="0"><code>inflammation-02.csv</code></pre>
 </div>
-<figure><img src="fig/python-figs/03-loop_49_3.png" alt="Analysis of inflammation-02.csv" class="figure mx-auto d-block"><div class="figcaption">Analysis of inflammation-02.csv</div>
-</figure><div class="codewrapper">
+<figure><img src="fig/python-figs/03-loop_49_3.png" alt="Analysis of inflammation-02.csv" class="figure mx-auto d-block"></figure><div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="output" tabindex="0"><code>inflammation-03.csv</code></pre>
 </div>
-<figure><img src="fig/python-figs/03-loop_49_5.png" alt="Analysis of inflammation-03.csv" class="figure mx-auto d-block"><div class="figcaption">Analysis of inflammation-03.csv</div>
-</figure><p>Sure enough, the maxima of the first two data sets show exactly the
+<figure><img src="fig/python-figs/03-loop_49_5.png" alt="Analysis of inflammation-03.csv" class="figure mx-auto d-block"></figure><p>Sure enough, the maxima of the first two data sets show exactly the
 same ramp as the first, and their minima show the same staircase
 structure; a different situation has been revealed in the third dataset,
 where the maxima are a bit less regular, but the minima are consistently
@@ -925,7 +917,7 @@ any links that you are not going to use.
   "url": "https://Southampton-RSG-Training.github.io/intro-software-dev/39-matplotlib.html",
   "identifier": "https://Southampton-RSG-Training.github.io/intro-software-dev/39-matplotlib.html",
   "dateCreated": "2026-07-10",
-  "dateModified": "2026-07-27",
+  "dateModified": "2026-10-23",
   "datePublished": "2026-10-23"
 }
 
