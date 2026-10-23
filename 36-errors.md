@@ -225,6 +225,27 @@ Both `SyntaxError` and `IndentationError` indicate a problem with the syntax of 
 but an `IndentationError` is more specific:
 it *always* means that there is a problem with how your code is indented.
 
+::::::::::::::::::::::::::::::::::::::: callout
+
+## Tabs and Spaces
+
+A quick note on indentation errors: they can sometimes be insidious, especially if you are mixing spaces and tabs. Because they are both whitespace, it is difficult to visually tell the difference. In the following example, where we have a file called hello_world.py, the first two lines are using a tab for indentation, while the third line uses four spaces:
+
+```python
+def some_function():
+    msg = "hello, world!"
+    print(msg)
+    return msg
+```
+
+```output
+File "hello_world.py", line 4
+   return msg
+            ^
+TabError: inconsistent use of tabs and spaces in indentation
+```
+By default, one tab is equivalent to eight spaces, so the only way to mix tabs and spaces is to make it look like this. In general, it is better to just never use tabs and always use spaces, because it can make things very confusing.
+:::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
