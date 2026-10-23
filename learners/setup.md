@@ -152,7 +152,7 @@ quit()
 ### MacOS
 
 #### Mac OS Intel
-Download the latest Anaconda Mac OS X installer. Double-click the .pkg file and follow the instructions.
+Head to the [Anaconda Download Page](https://www.anaconda.com/products/individual) and download the latest Anaconda Mac OS X installer. Double-click the .pkg file and follow the instructions.
 
 #### Mac OS M1
 If you have a M1 Mac you need a specific version of Anaconda follow the link below. 
