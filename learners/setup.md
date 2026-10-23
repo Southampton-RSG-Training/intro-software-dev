@@ -3,7 +3,7 @@ title: Setup
 ---
 
 
-## Software Setup
+## Software Setup and Data Download
 
 ### Bash Shell 
 
@@ -39,6 +39,19 @@ Open the “Terminal” application, which can be found in the “Utilities” f
 This will depend on the Linux distribution you are running, but you should be able to find a “Terminal” application in your desktop’s application menu.
 
 ::::::::::::::::::::::::
+
+#### Download Data for Bash Shell Lesson
+
+Open a terminal and type the following into the prompt that appears (pressing enter/return after each line):
+
+```bash
+cd
+git clone https://github.com/Southampton-RSG-Training/shell-novice.git
+```
+
+`cd` will move to your home directory, and `git clone` will download a copy of the materials.
+
+This should download all the content for the lesson to a new directory.
 
 ### Git
 
@@ -175,22 +188,7 @@ Answer ‘yes’ to allow the installer to initialize Anaconda3 in your .bashrc.
 
 ::::::::::::::::::::::::
 
-## Data Sets
-
-### Download Data for Bash Shell Lesson
-
-Open a terminal and type the following into the prompt that appears (pressing enter/return after each line):
-
-```bash
-cd
-git clone https://github.com/Southampton-RSG-Training/shell-novice.git
-```
-
-`cd` will move to your home directory, and `git clone` will download a copy of the materials.
-
-This should download all the content for the lesson to a new directory. 
-
-### Download Data for the Python Lesson
+#### Download Data for the Python Lesson
 
 To download the data for the Python lesson, open a terminal on your machine, and enter:
 
@@ -198,6 +196,5 @@ To download the data for the Python lesson, open a terminal on your machine, and
 cd
 git clone https://github.com/Southampton-RSG-Training/python-novice
 ```
-
 
 
